@@ -43,6 +43,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .images{
     display:flex;
@@ -51,6 +52,11 @@ a{
 }
 .small-image{
     width: 200px;
+}
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
 }
 .block{
     width: 200px;
@@ -69,6 +75,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
 }
 .hero{
     font-size: 48px;
