@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    align-content: center;
     font-family: roboto, sans-serif;
     margin: 0;
 }
@@ -18,6 +19,8 @@ ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     gap: 16px;
 }
 .right{
@@ -29,27 +32,39 @@ a{
     text-decoration: none;
 }
 .section1{
-    flex: 1;
     display:flex;
     align-content: center;
     justify-content: center;
     background-color: #1F2937;
+    padding: 88px;
+}
+img {
+    width: 600px;
 }
 .hero-text{
+    width: 600px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .hero{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
+.hero-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
 button.signup{
     background-color: #3882F6;
     border: #3882F6;
     color: white;
     margin:0;
-    padding:0;
+    padding: 4px 16px;
+    border-radius: 4px;
 }
 .footer{
     display: flex;
