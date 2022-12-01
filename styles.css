@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
