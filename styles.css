@@ -18,13 +18,12 @@ ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 16px;
 }
 .right{
     margin-left: auto;
 }
-.header-link{
-    gap: 8px;
-}
+
 a{
     color:white;
     text-decoration: none;
@@ -32,6 +31,25 @@ a{
 .section1{
     flex: 1;
     display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+button.signup{
+    background-color: #3882F6;
+    border: #3882F6;
+    color: white;
+    margin:0;
+    padding:0;
 }
 .footer{
     display: flex;
