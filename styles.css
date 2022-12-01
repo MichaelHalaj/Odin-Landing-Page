@@ -26,7 +26,10 @@ ul{
 .right{
     margin-left: auto;
 }
-
+.content{
+    display: flex;
+    flex-direction: column;
+}
 a{
     color:white;
     text-decoration: none;
@@ -44,6 +47,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: white;
+    padding: 88px;
 }
 .images{
     display:flex;
@@ -86,7 +90,24 @@ img {
     font-size: 18px;
     color: #E5E7EB;
 }
-
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 88px;
+}
+.quote{
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 700px;
+}
+.signature{
+    font-weight: bold;
+    font-size: 24px;
+}
 
 button.signup{
     background-color: #3882F6;
