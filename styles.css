@@ -2,10 +2,39 @@ body{
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
+    margin: 0;
 }
-
-.header ul{
+.header{
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-weight: 900;
+}
+ul{
     display: flex;
-    flex-direction: column;
-    color: red;
+    flex-direction: row;
+    list-style-type: none;
+}
+.right{
+    margin-left: auto;
+}
+.header-link{
+    gap: 8px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.section1{
+    flex: 1;
+    display:flex;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
