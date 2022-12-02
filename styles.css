@@ -131,7 +131,6 @@ img{
     display: flex;
     justify-content: center;
     align-content: center;
-    flex: 1;
     background-color: #3882F6;
     border-radius: 8px;
     padding: 24px 48px;
@@ -161,7 +160,7 @@ button.signup{
 
 .action-block button.signup{
     border: 2px solid #F9FAF8;
-    margin-bottom: auto;
+    margin: auto 0;
 }
 .footer{
     display: flex;
