@@ -45,6 +45,7 @@ img{
     background-color: #1F2937;
     padding: 88px;
     gap: 16px;
+    flex-wrap: wrap;
 }
 .section2{
     display: flex;
