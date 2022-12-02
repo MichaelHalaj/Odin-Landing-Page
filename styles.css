@@ -121,7 +121,35 @@ img{
     font-size: 24px;
     margin-left: auto;
 }
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 88px;
+}
+.action-block{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 24px 48px;
+    gap: 24px;
 
+}
+.action-text{
+    display: flex;
+    flex-direction: column; 
+}
+.action{
+    color: white;
+    font-size: 36px;
+}
+.action-caption{
+    color: white;
+    font-size: 24px;
+}
 button.signup{
     background-color: #3882F6;
     border: #3882F6;
@@ -129,6 +157,11 @@ button.signup{
     margin:0;
     padding: 4px 16px;
     border-radius: 4px;
+}
+
+.action-block button.signup{
+    border: 2px solid #F9FAF8;
+    margin-bottom: auto;
 }
 .footer{
     display: flex;
