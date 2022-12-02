@@ -105,15 +105,21 @@ img{
     background-color: #E5E7EB;
     padding: 88px;
 }
+.quote-block{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    flex: 1;
+}
 .quote{
     color:#1F2937;
     font-size: 36px;
     font-style: italic;
-    width: 700px;
 }
 .signature{
     font-weight: bold;
     font-size: 24px;
+    margin-left: auto;
 }
 
 button.signup{
