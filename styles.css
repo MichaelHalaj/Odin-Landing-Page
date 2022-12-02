@@ -10,7 +10,7 @@ body{
     color: white;
     font-size: 24px;
     margin: 0;
-    padding: 0;
+    padding: 12px 24px;
 }
 .logo{
     font-weight: 900;
@@ -57,6 +57,7 @@ img{
 .images{
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 32px;
 }
 .small-image{
@@ -163,7 +164,13 @@ button.signup{
     margin: auto 0;
 }
 .footer{
+    margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:#1F2937;
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+
 }
